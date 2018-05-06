@@ -1,3 +1,4 @@
+```
 # mpi_md5
 #input
 - edit "dictionary[]" (an array of char) in sinh_password.cpp
@@ -9,3 +10,4 @@
  + mpic++ main.cpp -o main                       
  + mpirun -np "number of process you want" main
   ex: mpirun -np 10 main
+```
