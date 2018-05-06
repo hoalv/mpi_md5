@@ -5,7 +5,7 @@
 - edit md5 code that you want to find it's plaintext by change value of "code" in function main() in main.cpp
 
 #run
-open terminal and cd to the folder you save your code, typing:
-  mpic++ main.cpp -o main                       
-  mpirun -np "number of process you want" main
+-open terminal and cd to the folder you save your code, typing:
+ + mpic++ main.cpp -o main                       
+ + mpirun -np "number of process you want" main
   ex: mpirun -np 10 main
