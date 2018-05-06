@@ -7,4 +7,5 @@
 #run
 open terminal and cd to the folder you save your code, typing:
   mpic++ main.cpp -o main                       
-  mpirun -np <number of process you want> main
+  mpirun -np "number of process you want" main
+  ex: mpirun -np 10 main
