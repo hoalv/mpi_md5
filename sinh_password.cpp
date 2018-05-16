@@ -5,7 +5,7 @@
 using namespace std;
 int n; 
 char a[100];
-char dictionary[] = {'a', 'b', 'c', 'd', 'e', 'g', '1', '2', '3','4', '5','6', '\0' };
+char dictionary[] = {'0', '1', '2', '3','4', '5', '6', '7'. '8', '9', '\0' };
 bool check = false;
 void display(int k){
  for (int i = 0; i < k; i++){

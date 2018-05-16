@@ -125,7 +125,7 @@ int main(int argc, char ** argv){
 	//cout <<"Nhap k: ";
 	//cin >> k;
 	k=6;
-	string code = md5("2ba22a");
+	string code = md5("999999");
 	MPI_Init(&argc, &argv);
  	
 	MPI_Barrier(MPI_COMM_WORLD); /* IMPORTANT */
